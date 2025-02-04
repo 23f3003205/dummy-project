@@ -13,24 +13,25 @@
         <div id="canvas">
             <div id="form-body">
                 <h2>Register</h2>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="...gmail.com">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Username</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="harsh123">
-                </div>
-                  <label for="inputPassword5" class="form-label">Password</label>
-                  <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-                  <div id="passwordHelpBlock" class="form-text">
-                  </div>
-                <div style="text-align: center;" >
-                <button type="button" class="btn btn-primary">Register</button><br>
-                Already registered?
-                <a href="/dummy-project/templates/login.html">Login</a>
-                </div>
-                
+                <form action="" method="post">
+                    <div class="mb-3">
+                        <label for="Input1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="Input1" placeholder="@gmail.com" name="email"> 
+                    </div>
+                    <div class="mb-3">
+                        <label for="Input2" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="Input2" placeholder="harsh123" name="username">
+                    </div>
+                    <label for="inputPassword5" class="form-label">Password</label>
+                    <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" name="pwd">
+                    <div id="passwordHelpBlock" class="form-text">
+                    </div>
+                    <div style="text-align: center;" >
+                    <input type="submit" class="btn btn-primary" value="Register"> <br>
+                    Already registered?
+                    <a href="/dummy-project/templates/login.html">Login</a>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

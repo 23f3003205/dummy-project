@@ -25,3 +25,8 @@
         width: 100%;  /* 100% width on medium screens */
     }
 }
+
+.headings{
+    margin: 3px;
+    padding-left: 2px;
+}
